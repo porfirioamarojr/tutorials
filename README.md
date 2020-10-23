@@ -14,6 +14,7 @@ A ideia desse repositório é levar um pouco do conhecimento para os internautas
 ### Sobre a visão
 Se estiver sendo ou for útil para você ou mais pessoas compartilhe, e, quem sabe surge um canal no YouTube.
 
+
 OBS: se sair um canal o link será postado aqui!
 
 Me segue no IG: @amarojunior98
