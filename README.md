@@ -1,5 +1,6 @@
 # TUTORIALS
-Esse repositório é dedicado a turoriais de instalação de programas e outros na distribuição Manjaro.
+
+Sou Técnico de Informática com ênfase em Redes de Computadores pelo IMD-UFRN(Instituto Metrópole Digital), e Bacharelando em Sistemas de Informação pela UFRN(Universidade Federal do Rio Grande Do Norte) e criei esse repositório dedicado a turoriais de instalação de programas e outros na distribuição Manjaro.
 
 ### Sobre a ditribuição
 O manjaro é uma ditribução Linux baseada em outra ditribuição linux chamada arch-linux,
@@ -15,3 +16,4 @@ Se estiver sendo ou for útil para você ou mais pessoas compartilhe, e, quem sa
 
 OBS: se sair um canal o link será postado aqui!
 
+Me segue no IG: @amarojunior98
