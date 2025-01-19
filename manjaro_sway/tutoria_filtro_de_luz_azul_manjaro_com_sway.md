@@ -6,7 +6,7 @@ pessoas que utilizam essa coloração por causar um conforto nos olhos.
 ## Revisões
 | Revisor | Data de Revisão |
 | :----: | ----: |
-| [Arthur Gorgônio](https://github.com/Arthurgorgonio) | 03/12/2024 |
+| [Arthur Gorgônio](https://github.com/Arthurgorgonio) | 19/01/2025 |
 | [Amaro Júnior](https://github.com/porfirioamarojr) | 08/04/2023 |
 
 ---
@@ -54,9 +54,10 @@ Neste sentido, vamos assumir as seguintes faixas:
 De posse do seu arquivo de configuração, adicione as seguintes linhas no arquivo:
 ```
 set $mode_temp GammaStep: (d)ay, (t)ransition, (n)ight ou (k)ill
-set $gamma gammastep -l -6.4:-37.1 -g 1.0 -b 1.0:1.0 -l manual -m wayland
+set $gamma gammastep
 set $kill_gamma killall gammastep
 bindsym $mod+t mode '$mode_temp'
+exec $gamma -O 6500
 mode '$mode_temp' {
   bindsym d exec $kill_gamma && $gamma -O 6500, mode 'default'
   bindsym t exec $kill_gamma && $gamma -O 5500, mode 'default'
@@ -68,6 +69,8 @@ mode '$mode_temp' {
 
 Agora, salve e recarregue o arquivo da interface, com isso será possível
 alternar entre as temperaturas de modo simplificado.
+
+> ***Importante**: Caso seja a primeira vez que você está utilizando o `gammastep`, talvez seja necessário reiniciar toda a interface do Sway ou iniciar o serviço pelo terminal com `gammastep -O 6500 &`. Nos próximos logins, o comando `exec $gamma -O 6500` já irá garantir que o gammastep esteja em execução no sistema.*
 
 
 ## Referências
